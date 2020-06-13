@@ -61,3 +61,38 @@ form{
 .active {
   background-color: #776677; 
 }
+#headL{
+  background-color: #776677;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+#ulL{
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #776677;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  float: center;
+  font-size: 16px;
+}
+.buttonAdd {
+  background: #d9d9d9;
+  color: #555;
+  float: center;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+.buttonAdd:hover {
+  background-color: #bbb;
+}
